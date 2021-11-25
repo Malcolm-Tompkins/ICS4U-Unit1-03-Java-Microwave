@@ -80,7 +80,8 @@ final class Microwave {
             System.out.println("Are you heating up a sub, soup, or pizza? ");
             final String foodType = myObj.next();
             try {
-                System.out.println("How much " + foodType + " are you heating up: ");
+                System.out.println("How much " + foodType
+                    + " are you heating up: ");
                 final double foodAmount = myObj.nextDouble();
                 // Process
                 if ("sub".equals(foodType)) {
